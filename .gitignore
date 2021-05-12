@@ -1,0 +1,11 @@
+# Ignoring binaries
+bin
+
+# Ignoring images
+# figures
+
+# Ignoring data files
+# data/*
+
+# Ignoring Emacs temporary files
+*\#*
