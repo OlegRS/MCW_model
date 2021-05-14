@@ -18,8 +18,8 @@ J = np.arange(1,3,.0001)
 h1 = -J*np.sqrt(1-1/(beta*J)) + 1/(2*beta)*( np.log(1+np.sqrt(1-1/(beta*J))) - np.log(1-np.sqrt(1-1/(beta*J))) )
 h2 = J*np.sqrt(1-1/(beta*J)) + 1/(2*beta)*( np.log(1-np.sqrt(1-1/(beta*J))) - np.log(1+np.sqrt(1-1/(beta*J))) )
 
-plt.xlabel(r'$h$', fontsize=20)
-plt.ylabel(r'$J$', fontsize=20)
+plt.xlabel(r'$\beta h$', fontsize=20)
+plt.ylabel(r'$\beta J$', fontsize=20)
 
 plt.axvline(0, alpha=.5, color='black')
 plt.axhline(0, alpha=.5, color='black')
